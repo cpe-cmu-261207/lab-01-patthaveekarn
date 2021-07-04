@@ -1,13 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Resume </title>
+  <title>My resume</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <h1>This is My Resume </h1>
+
+<body class="bg-blue-300">
+  <div class="bg-white border-b-2 py-3 mb-4">
+    <div class="bg-white  flex justify-between max-w-screen-md mx-auto">
+      <p class="font-semibold text-xl ">resume [profile]</p>
+      <!--navbar  -->
+      <div class="flex space-x-3">
+        <a href="http://127.0.0.1:5501/home.html">Profile</a>
+        <a href="http://127.0.0.1:5501/experience.html">Experience</a>
+        <a href="http://127.0.0.1:5501/contact.html">Contact</a>
+      </div>
+    </div>
+
+  </div>
+
+  <!--post-->
+  <div class="space-y-4">
+    <!--card-->
+
+    <div
+      class="bg-white max-w-screen-md mx-auto flex  shadow-lg rounded-b-lg  ring-gray-300 border-4  border-purple-800">
+      <div class="p-4  justify-evenly space-y-4">
+        <p class="font-semibold px-80 ">Profile</p>
+        <div class="bg-blue-100 max-w-screen-md mx-auto flex  shadow-lg rounded-xl  ring-gray-300  ">
+          <img class="w-32 h-36 rounded-lg" src="p1.JPG">
+          <div class="p-4">
+            <p class="font-semibold">Patthaveekarn Khaekai</p>
+            <p class="text-sm text-red-900 ">
+              My name is Patthaveekarn ,You call me Aum. I student at Chaing Mai Univercity.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="bg-white max-w-screen-md mx-auto flex  shadow-lg rounded-b-lg  ring-gray-300 border-4 border-indigo-700 ">
+      <div class="p-4  justify-evenly space-y-4">
+        <p class="font-semibold px-80 ">My Skill</p>
+        <div class="bg-blue-100 max-w-screen-md mx-auto flex  shadow-lg rounded-xl  ring-gray-300  ">
+          <img class="w-48 h-36 rounded-lg" src="c++.jpg">
+          <div class="p-4">
+            <p class="font-semibold">Programming</p>
+            <p class="text-sm text-red-800 ">
+              I can computer programming language,it is c++. and I have start learning Python.
+            </p>
+          </div>
+        </div>
+
+
+        <div class="bg-blue-100 max-w-screen-md mx-auto flex  shadow-lg rounded-xl  ring-gray-300  ">
+          <img class="w-48 h-36 rounded-lg" src="guitar.jpg">
+          <div class="p-4">
+            <p class="font-semibold">Hobby</p>
+            <p class="text-sm text-red-800 ">
+              I like listening to music.
+            </p>
+            <p class="text-sm text-red-800 ">
+              I like play guitar.
+            </p>
+            <p class="text-sm text-red-800 ">
+              I like play game.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
 </body>
+
 </html>
